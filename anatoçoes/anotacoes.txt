@@ -1,0 +1,8 @@
+1 ° aula:
+foi sobre logica de programação, com toda a base teorica e pratica no pseudocódigo.
+2° aula:
+Foi primeiros passos para começar a programar.
+foi a aula mais conceitual, onde aborda a tarde toda do inicio da programção e fundamentos dela.
+foi ensinado o conceitos de tipologia, variaves, matriz, vetor, e estruturas;
+3° Aula Introdução ao Git e ao GitHub
+foi ensinado de forma clara e objeetiva os comandos, as diferencças e funcionamento do git e github.
