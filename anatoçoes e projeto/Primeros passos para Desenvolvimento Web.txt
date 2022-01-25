@@ -1,0 +1,184 @@
+1-Historia:
+
+qual o primeiro dominio criado?
+ symbolics.com, em 1985, por uma fabricante de computadores em Massachusetts, nos Estados Unidos.
+
+primeiro blog?
+Coincidência ou não, o primeiro blog da internet foi criado por um brasileiro. Em 1994, o cientista do MIT Media Lab, Claudio Pinhanez, criou um site chamado “Open Diary” 
+
+qual foi a primeira compra feita pela internet?
+foi um CD do cantor Sting, em 11 de agosto de 1994. O comprador foi um homem chamado Phil Brandenberger, morador da Philadelphia
+qual o site mais antigo em atividade?
+
+2-Termos chaves:
+
+download/upload
+naevegador  / hosto / multimidia
+banda larga / html / nick
+cache / http / online/offline
+crack/icone / pixel
+email / link / spam
+emoji / login/logon / url
+gif/jpg / logout logoff / virus
+bkp/ip/hacker/3g/4g/5g/ cookies/firewall/
+
+3-Atualemte:
+dados sobre atualidade
+*******************************************
+Inicio da Aula 2
+Redes
+
+
+backbone
+esoinha dorsal, gerencia o trafico da interenet ligando PC, redes, 
+
+provedor de acesso
+empresas telefonica fornecar dados .
+
+provedor de serviço
+dial-up interenet de escada
+radi
+satelite
+fibra otica
+p2p
+
+caminho inverso
+www
+dns
+classes de redes
+127.0.0.1
+usuario final
+
+
+*******************************************
+
+Aula 3
+Introdução TCP/IP, portas, roteadores, modems, switches
+
+
+
+tcp/ip
+transmissio contrl protocol = protocolo de transmissão 
+internet protocol = protocolo da internet
+modelos de camadas
+
+1 fisica(ex placa de rede)
+2rede(ip)
+3-transporte(tcp,udp)
+4 - aplicação(ftp,http,smtp)
+
+
+udp
+rapido, não confiavel carro de ovo
+
+tcp
+voltdo a conexão
+handshake
+integridade, ordem de dados
+
+Portas
+
+20:ftp
+22:ssh
+25:smtp
+53:dns
+80:http
+443:https
+
+roteadores, modems, switches
+modem modulos e demodula sinais, dados, em formatio para ser entendido
+
+roteador
+distribui internet para 1 ou mais dispositivo
+pode fazer a comunicação
+switch
+criado para ser inteligente, distribui intrenet para 1 ou mais despositocos
+
+
+*******************************************
+
+
+4 Aula
+
+celuar, internet e outros dispositivos
+
+Dados Moveis
+sms custo 0
+o celular troca naturalmente alguns bits com a torre de comunicação eo sms
+vai de carona nisso
+
+mms
+transmissão de msg audio e video
+
+
+wifi-
+padroes para wifi
+ieee 802.11: 2,4 ghz 2mbps
+segura 
+wep chaves 64 e de 128 bits
+wpa chaves trocada perodicamente
+wpa2 aes 802.11i
++segurança
++processamento
+
+
+bluetooth
+ conexao ponto a ponto
+classes
+1 100 metro alcance
+2 10 metro alcance
+31 1 metro alcance
+
+
+
+*******************************************
+5° aula
+browser, sites, aplicativos e webserver
+
+Browser
+site
+pag da internet/ diversos proposto
+podemos sr feita em diversas linguam de programação(lp)
+e-commerce
+comercio eletronico
+
+web server
+estatio e dinamico
+estatico servidor fisico
+dinamico software do servidor
+
+
+*******************************************
+
+aula 06
+stacks
+
+
+pilhas de tecnologisas
+conjutos de softwarepara executar aplicativo, programa
+com LP
+ambiente e ferramente de interação
+
+front-end
+site, software,aplicativos, web service
+interdace, ui, ux
+logima de programação, html, css, jquery, js, ajax, php, 
+back-end
+servidores banco de dos,
+meio de campo entra interface
+regras de negocios
+mysql, oracle, procolos, java, node.js, php
+
+full stack
+
+
+
+
+
+
+
+
+
+
+
+
