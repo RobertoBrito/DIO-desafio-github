@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>To-Do List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles.css" />
+
+
+</head>
+
+<body>
+    <div class="content">
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <h1>To-Do List</h1>
+                <form>
+                    <input type="text" name="task" id='task' placeholder="Digite aqui sua tarefa" />
+
+                    <input type="button" name="" onclick="addTask();" value="Adicionar" />
+                </form>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="to-do-list-box">
+
+                    <ul id="myList">
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
+<script type="text/javascript">
+    var ul = document.getElementById("myList");
+    var li;
+    var itemId;
+    var item;
+    addTask = function() {
+
+        if (document.getElementById("task").value != "") {
+
+            item = document.getElementById("task");
+
+            itemId = ul.childElementCount;
+
+            li = createItemEl(item.value, itemId);
+            li.appendChild(createRemoveTaskBtn(itemId));
+            ul.appendChild(li);
+            item.value = "";
+        }
+
+    }
+
+
+
+    removeTask = function(itemId) {
+
+        for (i = 0; i < ul.children.length; i++) {
+
+            if (ul.children[i].getAttribute("index") == itemId) {
+
+                ul.children[i].remove();
+
+
+            }
+        }
+    }
+
+    createItemEl = function(itemValue, itemId) {
+
+        let li = document.createElement("li");
+
+        li.setAttribute("index", itemId);
+
+        li.appendChild(document.createTextNode(itemValue));
+
+        return li;
+    }
+
+    createRemoveTaskBtn = function(itemId) {
+        let btn = document.createElement("input");
+        btn.setAttribute('type', 'checkbox');
+        btn.setAttribute("onclick", "removeTask(" + itemId + ")");
+        // btn.innerHTML = " ";
+        return btn;
+    }
+</script>
